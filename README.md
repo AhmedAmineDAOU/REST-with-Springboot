@@ -1,7 +1,3 @@
-Here is a basic structure for a README file for your **REST with Spring Boot** project:
-
----
-
 # REST with Spring Boot
 
 A simple Spring Boot project demonstrating a REST API implementation. This project uses Maven for dependency management and follows the Model-View-Controller (MVC) architecture.
@@ -29,18 +25,18 @@ git clone https://github.com/AhmedAmineDAOU/REST-with-Springboot.git
 mvn clean install
 mvn spring-boot:run
 ```
+Alternatively, you can build the JAR file with
+```bash
+./mvnw clean package 
+```
+and then run the JAR file, as follows:
+```bash
+java -jar target/rest-service-0.0.1-SNAPSHOT.jar
+```
+
 
 ## API Endpoints
-| Method | Endpoint         | Description            |
-|--------|------------------|------------------------|
-| GET    | `/api/resource`  | Fetch all resources    |
-| POST   | `/api/resource`  | Create a new resource  |
-| PUT    | `/api/resource/{id}` | Update a resource |
-| DELETE | `/api/resource/{id}` | Delete a resource |
+| Method | Endpoint              | Description            |
+|--------|-----------------------|------------------------|
+| GET    | `/greeting?name=John` | Returns a greeting message, optionally using a provided name as a query parameter. If no name is provided, "World" is used by default. |
 
-## License
-This project is licensed under the MIT License.
-
----
-
-Feel free to adjust or extend the content based on your project's specific functionality and details!
