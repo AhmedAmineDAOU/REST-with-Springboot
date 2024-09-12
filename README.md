@@ -1,12 +1,6 @@
 # REST with Spring Boot
 
-A simple Spring Boot project demonstrating a REST API implementation. This project uses Maven for dependency management and follows the Model-View-Controller (MVC) architecture.
-
-## Features
-- **RESTful API**: Supports basic CRUD operations.
-- **Spring Boot**: Lightweight Java framework to build microservices.
-- **Maven**: Project dependency management.
-- **Java 17**: Modern Java features and enhancements.
+A simple Spring Boot project demonstrating a REST API implementation (GET request). This project uses Maven for dependency management.
 
 ## Prerequisites
 - **Java 17** or later
